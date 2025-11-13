@@ -11,6 +11,28 @@ ab();
 // 2. Afnaan
 // Q: Add your max function here
 
+let qw = 5;
+let xy = 13;
+
+if (qw === xy ){
+    console.log("same");
+    
+}
+
+else if (qw>xy){
+    console.log("qw");
+    
+}
+
+else{console.log("xy");
+}
+
+
+function max (a,b){
+    return Math.max(a,b);
+}
+console.log(max(12,13));
+
 
 // 3. Ganapati
 // Q: Add your reverse string function here
