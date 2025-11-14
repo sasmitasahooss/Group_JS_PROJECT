@@ -4,7 +4,7 @@ let a = 5;
 let b = 4;
 let ab = function (a, b) {
     console.log(a + b);
-}
+};
 ab();
 
 
@@ -45,6 +45,12 @@ reverse("xyz");
 
 // 4. Shahbaz
 // Q: Add your isEven function here
+function isEven(num) {
+    return num % 2 === 0;
+}
+
+console.log(isEven(45));
+console.log(isEven(12));
 
 
 // 5. Rahul
